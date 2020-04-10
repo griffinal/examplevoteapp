@@ -13,6 +13,6 @@ spec:
       - name: POSTGRES_USER
         value: admin
       - name: POSTGRES_PASSWORD
-        value: admin
+        value: mysecretpassword
     ports:
      - containerPort: 5432
